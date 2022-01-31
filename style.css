@@ -1,0 +1,113 @@
+img {
+    width:400px;
+    height:400px;
+    padding-top:200px;
+}
+
+body {
+    display:flex;
+}
+
+.borderCooler1 {
+   display:inline-block;
+   height:800px;
+   border-style: solid;
+   margin-left:150px;
+   background-color: black;
+   border-color:yellow;
+   
+}
+
+.window1 {
+    background-color: black;
+    display:none;
+    width:500px;
+    height:500px;
+    color:white;
+    position:absolute;
+    top:20%;
+}
+
+
+
+.window2:target {
+    display:block;
+}
+
+
+.window2 > p {
+    color:white;
+}
+.window2 {
+    position:absolute;
+    left:60%;
+    top:20%;
+    width:400px;
+    height:400px;
+    background-color: black;
+    display:none;
+}
+
+.window1:target {
+    display:block;
+}
+
+.borderCooler2 {
+    height:800px;
+    display:inline-block;
+    border-style: solid;
+    position:relative;
+    left:250px;
+    background-color:black;
+    border-color:yellow;
+}
+
+p.description {
+    font-size:26px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    top:120px;
+    color:white;
+}
+
+.buy {
+    border-style: solid;
+    border-radius: 40px;
+    text-align:center;
+    position:relative;
+    top:40px;
+    width:300px;
+    margin-right: auto;
+    margin-left: auto;
+    height:50px;
+    font-size:30px;
+    color:white;
+}
+
+a {
+    color:white;
+}
+
+body {
+    background-color: purple;
+}
+
+
+
+#coolers {
+    position:absolute;
+    left:15%;
+    top:20%;
+    width:70%;
+    float:top;
+    display:flex;
+}
+
+.container {
+    margin-top:70%;
+    display:flex;
+    border-style:solid;
+    float:bottom;
+}
